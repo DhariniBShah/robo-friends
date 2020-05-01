@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/robo-friends/static/css/main.ec1c6607.chunk.css",
-    "main.js": "/robo-friends/static/js/main.2ce439bc.chunk.js",
-    "main.js.map": "/robo-friends/static/js/main.2ce439bc.chunk.js.map",
-    "runtime-main.js": "/robo-friends/static/js/runtime-main.1daf500c.js",
-    "runtime-main.js.map": "/robo-friends/static/js/runtime-main.1daf500c.js.map",
-    "static/css/2.036b41f9.chunk.css": "/robo-friends/static/css/2.036b41f9.chunk.css",
-    "static/js/2.aba99920.chunk.js": "/robo-friends/static/js/2.aba99920.chunk.js",
-    "static/js/2.aba99920.chunk.js.map": "/robo-friends/static/js/2.aba99920.chunk.js.map",
-    "index.html": "/robo-friends/index.html",
-    "precache-manifest.6ab5d39a4a3e7195829382f2b62d8e20.js": "/robo-friends/precache-manifest.6ab5d39a4a3e7195829382f2b62d8e20.js",
-    "service-worker.js": "/robo-friends/service-worker.js",
-    "static/css/2.036b41f9.chunk.css.map": "/robo-friends/static/css/2.036b41f9.chunk.css.map",
-    "static/css/main.ec1c6607.chunk.css.map": "/robo-friends/static/css/main.ec1c6607.chunk.css.map",
-    "static/js/2.aba99920.chunk.js.LICENSE.txt": "/robo-friends/static/js/2.aba99920.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/robo-friends/static/media/SEGA.12a3db8b.woff"
+    "main.css": "/ZTM-robo-friends/static/css/main.82978750.chunk.css",
+    "main.js": "/ZTM-robo-friends/static/js/main.e4302dda.chunk.js",
+    "main.js.map": "/ZTM-robo-friends/static/js/main.e4302dda.chunk.js.map",
+    "runtime-main.js": "/ZTM-robo-friends/static/js/runtime-main.a952b988.js",
+    "runtime-main.js.map": "/ZTM-robo-friends/static/js/runtime-main.a952b988.js.map",
+    "static/css/2.036b41f9.chunk.css": "/ZTM-robo-friends/static/css/2.036b41f9.chunk.css",
+    "static/js/2.aba99920.chunk.js": "/ZTM-robo-friends/static/js/2.aba99920.chunk.js",
+    "static/js/2.aba99920.chunk.js.map": "/ZTM-robo-friends/static/js/2.aba99920.chunk.js.map",
+    "index.html": "/ZTM-robo-friends/index.html",
+    "precache-manifest.1614c0372f62d9aeefdd4be8a002a0da.js": "/ZTM-robo-friends/precache-manifest.1614c0372f62d9aeefdd4be8a002a0da.js",
+    "service-worker.js": "/ZTM-robo-friends/service-worker.js",
+    "static/css/2.036b41f9.chunk.css.map": "/ZTM-robo-friends/static/css/2.036b41f9.chunk.css.map",
+    "static/css/main.82978750.chunk.css.map": "/ZTM-robo-friends/static/css/main.82978750.chunk.css.map",
+    "static/js/2.aba99920.chunk.js.LICENSE.txt": "/ZTM-robo-friends/static/js/2.aba99920.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ZTM-robo-friends/static/media/SEGA.12a3db8b.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.1daf500c.js",
+    "static/js/runtime-main.a952b988.js",
     "static/css/2.036b41f9.chunk.css",
     "static/js/2.aba99920.chunk.js",
-    "static/css/main.ec1c6607.chunk.css",
-    "static/js/main.2ce439bc.chunk.js"
+    "static/css/main.82978750.chunk.css",
+    "static/js/main.e4302dda.chunk.js"
   ]
 }
