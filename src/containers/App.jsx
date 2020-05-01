@@ -10,7 +10,7 @@ import { setSearchField } from '../Action';
 
 const mapStateToProps = state => {
     return {
-        searchField: state.searchRobots.searchField
+        searchField: state.searchField
     }
 }
 
@@ -24,8 +24,7 @@ class App extends Component {
     constructor() {
         super()
         this.state = {
-            robots: [],
-            searchfield: ''
+            robots: []
         }
     }
     componentDidMount(){
@@ -37,15 +36,14 @@ class App extends Component {
             this.setState({ robots: users })
         })
     }
-    onSearchChange = (event) => {
-        this.setState({ searchfield: event.target.value });
-    }
+
     render() {
-        const { robots, searchfield } = this.state;
+        const { robots } = this.state;
+        const { searchField, onSearchChange } = this.props;
         const filteredRobots = robots.filter( robot => {
             return (
                 robot.name.toLowerCase()
-                .includes(searchfield.toLowerCase())
+                .includes(searchField.toLowerCase())
             );
         })
         if(!robots.length){
@@ -54,7 +52,7 @@ class App extends Component {
             return (
                 <div className = 'tc'>
                     <h1 className = 'f1'>Robo Friends</h1>
-                    <SearchBox searchChange = { this.onSearchChange } />
+                    <SearchBox searchChange = { onSearchChange } />
                     <Scroll>
                         <ErrorBoundary>
                             <CardList robots = { filteredRobots }/>
